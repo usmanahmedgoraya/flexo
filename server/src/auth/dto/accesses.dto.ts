@@ -29,6 +29,7 @@ export class AccessDto {
     })
     supplierAccess: boolean;
 
+    // auth dto 
     @ApiProperty({
         description: 'Access permission for sales',
         example: false,
