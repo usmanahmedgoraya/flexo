@@ -10,7 +10,7 @@ import {
 import { FinancialParametersService } from './financial-parameters.service';
 import { ApiTags, ApiOperation, ApiResponse, ApiParam, ApiBody } from '@nestjs/swagger';
 import { CreateFinancialParametersDto, UpdateFinancialParametersDto } from './dto/create-financial-parameter.dto';
-
+// Hello
 @ApiTags('Financial Parameters')
 @Controller('financial-parameters')
 export class FinancialParametersController {
